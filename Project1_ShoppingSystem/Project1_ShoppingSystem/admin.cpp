@@ -28,7 +28,7 @@ string append(string origin)//ID 递增
 	int i = origin.length() - 1;
 	bool cf = true;	//carry flag
 	int flag = 1;	//若有进位标志则为1， 第一次默认为1
-	while(i>=0)	//ppt 上规定用户不超过20个，故没有考虑 F + 1 = G 的情况
+	while(i>0)	//ppt 上规定用户不超过20个，故没有考虑 F + 1 = G 的情况
 	{
 		temp[i] = (((origin[i]+flag)>'9')?(flag = 1,cf = true, '0'):(flag = cf?1:0,cf = false,origin[i]+(flag--)));
 		i--;

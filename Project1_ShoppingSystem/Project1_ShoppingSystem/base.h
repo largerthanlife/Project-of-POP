@@ -23,15 +23,9 @@ protected:
 	File *file;
 	string ID;			
 	string password;
-	bool isadmin;		//是否为管理员
-	string storefile;	//库存文件名
-	string soldfile;	//已售清单文件名
 public:
-//	virtual void operationlist(int, Goodlist&) = 0; //根据操作号，调用不同函数
-	virtual void List(Goodlist&) = 0;				//查询商品接口 可统一实现
-	virtual void Add(Goodlist&) = 0;				//分别实现
-//	virtual void Remove() = 0;						//分别实现
-//	virtual void Read() = 0;						//调用 file 读取对应文件
+	virtual void List(Goodlist&) = 0;	//查询商品接口 可统一实现
+	virtual void Add(Goodlist&) = 0;	//分别实现
 };
 
 class Customer; //前向声明

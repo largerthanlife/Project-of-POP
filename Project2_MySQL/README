@@ -1,0 +1,13 @@
+##输入 "mySQL" 进入数据库循环:
+###~$ mySQL
+
+##输入 "quit" 或 "QUIT" 退出循环 和 程序:
+###~$ quit
+###(mysql)==> QUIT
+
+##输入 "help" 可查看帮助:
+###~$ help
+
+##输入 "READ" 后再输入事务文件名可一次性执行多条命令
+###(mysql)==> READ
+###input filename: yourfilename

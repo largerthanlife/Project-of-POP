@@ -12,7 +12,6 @@ class File;
 
 class Goods
 {
-//private:
 public:
 	string ID;
 	string name;
@@ -38,14 +37,10 @@ class Goodlist
 {
 private:
 	File *file;
-	//map<Goods> mgood;
 public:
 	Goodlist();
 	void update();
 	vector<Goods> vgood;
-	//void readfile();
-	//void deletegoods();
-	//void addgoods();
 };
 
 #endif

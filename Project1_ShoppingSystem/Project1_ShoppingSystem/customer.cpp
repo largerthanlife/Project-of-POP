@@ -217,7 +217,7 @@ bool Customer::Checkout(Goodlist& glist)
 					cout << "请适当减少数量后再次结账" << endl;
 					return false;
 				}
-				sum += it ->goodsprice();
+				sum += it ->goodsprice() * it->goodsnum();
 			}
 	
 	//执行到这步，说明所有商品数量都不大于库存，可以进行确认付款
