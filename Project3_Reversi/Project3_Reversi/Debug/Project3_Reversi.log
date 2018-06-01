@@ -1,0 +1,41 @@
+﻿生成启动时间为 6/1/Fri 19:18:36。
+     1>项目“I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Project3_Reversi\Project3_Reversi.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Project3_Reversi.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Reversi.cpp main.cpp tool.cpp
+         Reversi.cpp
+     1>i:\njulife\programming\c++\project\hellovs2010\projectofpop\project3_reversi\project3_reversi\reversi.cpp(28): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\visual studio 2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>i:\njulife\programming\c++\project\hellovs2010\projectofpop\project3_reversi\project3_reversi\reversi.cpp(60): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\visual studio 2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>i:\njulife\programming\c++\project\hellovs2010\projectofpop\project3_reversi\project3_reversi\reversi.cpp(62): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\visual studio 2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+         正在生成代码...
+         正在编译...
+         tool.cpp
+         main.cpp
+         正在生成代码...
+     1>i:\njulife\programming\c++\project\hellovs2010\projectofpop\project3_reversi\project3_reversi\tool.cpp(142): warning C4715: “isEMPTY”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Debug\Project3_Reversi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project3_Reversi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Debug\Project3_Reversi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Debug\Project3_Reversi.lib" /MACHINE:X86 Debug\Project3_Reversi.exe.embed.manifest.res
+         Debug\ClientSocket.obj
+         Debug\main.obj
+         Debug\Reversi.obj
+         Debug\tool.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Project3_Reversi.exe.embed.manifest" /manifest Debug\Project3_Reversi.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Project3_Reversi.vcxproj -> I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Debug\Project3_Reversi.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Project3_Reversi.unsuccessfulbuild”。
+         正在对“Debug\Project3_Reversi.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“I:\NJUlife\Programming\C++\Project\HelloVS2010\ProjectofPOP\Project3_Reversi\Project3_Reversi\Project3_Reversi.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.71
