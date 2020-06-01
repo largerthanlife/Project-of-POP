@@ -1,0 +1,3 @@
+/home/ps/project/cpp_project/Project-of-POP/Project4_MyCalculator/build/CMakeFiles/rebuild_cache.dir
+/home/ps/project/cpp_project/Project-of-POP/Project4_MyCalculator/build/CMakeFiles/edit_cache.dir
+/home/ps/project/cpp_project/Project-of-POP/Project4_MyCalculator/build/CMakeFiles/mycal.dir

@@ -169,4 +169,6 @@ OprandType Operate(OprandType a, OpcharType theta, OprandType b, int *flag)
 	{
 		return pow( pow(a.real()-b.real(),2) + pow(a.imag()- b.imag(),2), 0.5);
 	}
+
+	return 0;// modified at 20.5.31 to finish make progress 
 }

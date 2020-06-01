@@ -1,0 +1,142 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER	calculator.h	93;"	d
+BtoD	bodh_conversion.cpp	/^static OprandType BtoD(OpcharType *s)$/;"	f	file:
+CALCULATE	calculator.h	72;"	d
+COLOR_RECORD	calculator.h	14;"	d
+Calc	file_calc.cpp	/^void Calc(char * s)$/;"	f
+Check	evaluate_expression.cpp	/^static bool Check(const OpcharType * const s)$/;"	f	file:
+Clean	main.cpp	/^void Clean(char **(&instructions), int instruction_num)$/;"	f
+ConversionOfBODH	bodh_conversion.cpp	/^void ConversionOfBODH(OpcharType *s)$/;"	f
+Count_Point	evaluate_expression.cpp	/^static int Count_Point(char *s)$/;"	f	file:
+E	calculator.h	81;"	d
+EQUATION	calculator.h	75;"	d
+ERROR	calculator.h	90;"	d
+Element	calculator.h	/^typedef char Element;$/;"	t
+Element_num	calculator.h	/^typedef complex<double> Element_num;	\/\/ complex class from <complex>$/;"	t
+EvaluateExpression	evaluate_expression.cpp	/^OprandType EvaluateExpression(OpcharType * const s, OprandType ans, OprandType myrand, int *flag)\/\/sÎªÐèÒª¼ÆËãµÄ×Ö·û´®£¬ ansÊÇÉÏÒ»´ÎµÄ¼ÆËã½á¹û£¬myrandÊÇ¿ÉÄÜ´æÔÚµÄx$/;"	f
+Exclude	string_handle.cpp	/^void Exclude(char * const s, int *error)$/;"	f
+FALSE	calculator.h	88;"	d
+FLUSH	calculator.h	15;"	d
+FOR_TEST	calculator.h	18;"	d
+Factorial	evaluate_expression.cpp	/^static OprandType Factorial(unsigned int n)$/;"	f	file:
+HISTORY	calculator.h	16;"	d
+HtoD	bodh_conversion.cpp	/^static OprandType HtoD(OpcharType *s)$/;"	f	file:
+INFORMATION	calculator.h	76;"	d
+INSTRUCTION	calculator.h	94;"	d
+INTEGRAL	calculator.h	74;"	d
+Init	main.cpp	/^int Init(char **(&instructions), int argc, char * argv[])$/;"	f
+IsCalcFile	file_calc.cpp	/^bool IsCalcFile(char* s)$/;"	f
+IsOperator	evaluate_expression.cpp	/^bool IsOperator(OpcharType c)$/;"	f
+LINELENGTG	calculator.h	69;"	d
+LOGNAME	calculator.h	95;"	d
+LOGWORD	calculator.h	100;"	d
+LOGWORD	calculator.h	98;"	d
+MAX	calculator.h	66;"	d
+MAXNUM	calculator.h	62;"	d
+MAXSTRING	calculator.h	58;"	d
+Menu	show.cpp	/^int Menu()$/;"	f
+Myshow	show.cpp	/^void Myshow()$/;"	f
+NumToString	bodh_conversion.cpp	/^static void NumToString(OpcharType *s, OprandType sum)$/;"	f	file:
+OK	calculator.h	89;"	d
+OpcharType	calculator.h	55;"	d
+Operate	operate.cpp	/^OprandType Operate(OprandType a, OpcharType theta, OprandType b, int *flag)$/;"	f
+OprandType	calculator.h	54;"	d
+OtoD	bodh_conversion.cpp	/^static OprandType OtoD(OpcharType *s)$/;"	f	file:
+PI	calculator.h	80;"	d
+POSFIX	file_calc.cpp	16;"	d	file:
+PREFIX	file_calc.cpp	15;"	d	file:
+Precede	precede.cpp	/^OpcharType Precede(OpcharType top, OpcharType get, int *flag) \/\/??ȷ???Ѽ??飬???ݴ??Բ????? ??Ϊ else ???䷶Χ̫?���????ǿ??????????ʱ??????ȷ??$/;"	f
+RAND	calculator.h	91;"	d
+Record	show.cpp	/^void Record(char *input, OprandType ans, bool error, int record_time)$/;"	f
+SAMPLE	calculator.h	77;"	d
+SHOW_BLACK	show.h	9;"	d
+SHOW_BLUE	show.h	13;"	d
+SHOW_DEEPGREEN	show.h	15;"	d
+SHOW_GREEN	show.h	11;"	d
+SHOW_PURPLE	show.h	14;"	d
+SHOW_RED	show.h	10;"	d
+SHOW_WHITE	show.h	16;"	d
+SHOW_YELLOW	show.h	12;"	d
+STACKINCREMENT	calculator.h	85;"	d
+STACK_INIT_SIZE	calculator.h	84;"	d
+STATUS	calculator.h	86;"	d
+ShowAnswer	show.cpp	/^void ShowAnswer(OprandType & ans)$/;"	f
+ShowHelp	show.cpp	/^void ShowHelp()$/;"	f
+ShowInformation	show.cpp	/^void ShowInformation()$/;"	f
+ShowLine	show.cpp	/^void ShowLine()$/;"	f
+ShowMeg	show.cpp	/^void ShowMeg(string meg, int color = SHOW_RED)$/;"	f
+ShowSample	show.cpp	/^void ShowSample()$/;"	f
+ShowSomething	show.cpp	/^void ShowSomething(char *s, int index, int use_time, char* instructions[MAXSTRING], int instructino_num)$/;"	f
+ShowSomething_or_not	show.cpp	/^int ShowSomething_or_not(char * s)$/;"	f
+SolvingEquations	equation.cpp	/^ bool SolvingEquations(OpcharType *s, OprandType *answer)$/;"	f
+StringHandle	string_handle.cpp	/^void StringHandle(OpcharType * const s, int *error)$/;"	f
+StringToOprand	string_to_oprand.cpp	/^OprandType StringToOprand(OpcharType * const s)$/;"	f
+TRUE	calculator.h	87;"	d
+VARIANCE	calculator.h	73;"	d
+VERSION	calculator.h	79;"	d
+Variance	variance.cpp	/^OprandType Variance(int num, int *error)$/;"	f
+_CALCULATOR	calculator.h	12;"	d
+_MYCOMPLEX_H_	my_complex.h	10;"	d
+_SHOW_H_	show.h	2;"	d
+_imag	my_complex.h	/^	_mytype _imag;$/;"	m	class:myComplex
+_myC	my_complex.h	/^	typedef myComplex<value_type> _myC;$/;"	t	class:myComplex
+_mytype	my_complex.h	/^	typedef value_type _mytype;$/;"	t	class:myComplex
+_real	my_complex.h	/^	_mytype _real;$/;"	m	class:myComplex
+acos	my_complex.h	/^myComplex<value_type> acos(myComplex<value_type> var)$/;"	f
+arg	my_complex.h	/^myComplex<value_type> arg(myComplex<value_type> var)$/;"	f
+asin	my_complex.h	/^myComplex<value_type> asin(myComplex<value_type> var)$/;"	f
+atan	my_complex.h	/^myComplex<value_type> atan(myComplex<value_type> var)$/;"	f
+conj	my_complex.h	/^myComplex<value_type> conj(myComplex<value_type> var)$/;"	f
+cos	my_complex.h	/^myComplex<value_type> cos(myComplex<value_type> var)$/;"	f
+fabs	my_complex.h	/^myComplex<value_type> fabs(myComplex<value_type> var)$/;"	f
+file_calc	file_calc.cpp	/^bool file_calc(char* filename, int *error)$/;"	f
+imag	my_complex.h	/^	_mytype imag() {return _imag;}$/;"	f	class:myComplex
+imag	my_complex.h	/^	void imag(_mytype value) { _imag = value;}$/;"	f	class:myComplex
+just_for_test	string_handle.cpp	/^void just_for_test(char* const s, int *error)$/;"	f
+log	my_complex.h	/^myComplex<value_type> log(myComplex<value_type> var)$/;"	f
+log10	my_complex.h	/^myComplex<value_type> log10(myComplex<value_type> var)$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+myComplex	my_complex.h	/^	myComplex() {_real = 0; _imag = 0;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^	myComplex(_myC& src) {_real = src._real; _imag = src._imag;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^	myComplex(_mytype realvalue, _mytype imagvalue) {_real = realvalue; _imag = imagvalue;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^	myComplex(const _myC& src) {_real = src._real; _imag = src._imag;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^	myComplex(const double src) {_real = src; _imag = 0;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^	myComplex(const int src) {_real = src; _imag = 0;}$/;"	f	class:myComplex
+myComplex	my_complex.h	/^class myComplex$/;"	c
+norm	my_complex.h	/^value_type norm(myComplex<value_type> var)$/;"	f
+operator &	show.h	/^string operator& (const T &_t, const string &s)$/;"	f
+operator &	show.h	/^string operator& (const string &s, const T &_t)$/;"	f
+operator *	my_complex.h	/^	friend _myC operator* (double left, _myC src)$/;"	f	class:myComplex
+operator *	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator*(myComplex<value_type>  src)$/;"	f	class:myComplex
+operator *=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator*= (myComplex<value_type> src)$/;"	f	class:myComplex
+operator +	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator+(myComplex<value_type> src)$/;"	f	class:myComplex
+operator ++	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator++()$/;"	f	class:myComplex
+operator ++	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator++(int)$/;"	f	class:myComplex
+operator +=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator+= (const myComplex<value_type> &src)$/;"	f	class:myComplex
+operator +=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator+= (myComplex<value_type> &src)$/;"	f	class:myComplex
+operator -	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator-(double src)$/;"	f	class:myComplex
+operator -	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator-(myComplex<value_type>  src)$/;"	f	class:myComplex
+operator -=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator-=(const myComplex<value_type> & src)$/;"	f	class:myComplex
+operator -=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator-=(myComplex<value_type> & src)$/;"	f	class:myComplex
+operator /	my_complex.h	/^	friend _myC operator\/ (double left, _myC src)$/;"	f	class:myComplex
+operator /	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator\/(myComplex<value_type> src)$/;"	f	class:myComplex
+operator /=	my_complex.h	/^myComplex<value_type> myComplex<value_type>::operator\/= (myComplex<value_type> src)$/;"	f	class:myComplex
+operator <<	my_complex.h	/^	friend ostream& operator<< (ostream& out, _myC& src)$/;"	f	class:myComplex
+operator <=	my_complex.h	/^bool myComplex<value_type>::operator<= (myComplex<value_type> src)$/;"	f	class:myComplex
+operator =	my_complex.h	/^	_myC  operator= (const int src){_real = src; _imag = 0;}$/;"	f	class:myComplex
+operator =	my_complex.h	/^myComplex<value_type>& myComplex<value_type>::operator=(myComplex<value_type> src)$/;"	f	class:myComplex
+operator >>	my_complex.h	/^	friend istream& operator>> (istream& in, myComplex<value_type>& src)$/;"	f	class:myComplex
+pow	my_complex.h	/^myComplex<value_type> pow(myComplex<value_type> var, myComplex<value_type> _num)$/;"	f
+readCmdLine	main.cpp	/^char *readCmdLine()$/;"	f
+real	my_complex.h	/^	_mytype real() {return _real;}$/;"	f	class:myComplex
+real	my_complex.h	/^	void real(_mytype value) { _real = value;}$/;"	f	class:myComplex
+replace_space	show.cpp	/^void replace_space(string& s)$/;"	f
+sin	my_complex.h	/^myComplex<value_type> sin(myComplex<value_type> var)$/;"	f
+sqrt	my_complex.h	/^value_type sqrt(myComplex<value_type> var)$/;"	f
+tan	my_complex.h	/^myComplex<value_type> tan(myComplex<value_type> var)$/;"	f
+~myComplex	my_complex.h	/^	~myComplex() {};$/;"	f	class:myComplex

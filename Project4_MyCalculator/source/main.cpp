@@ -10,6 +10,8 @@
 #include "calculator.h"
 #include "show.h"
 #include "my_complex.h"
+#include <readline/readline.h>
+#include <readline/history.h>
 
 int Menu();
 void ShowLine();

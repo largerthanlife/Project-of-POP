@@ -20,7 +20,7 @@ void ShowMeg(string meg, int color = SHOW_RED);
  * Return:		The priority of these operators, expressed with '>' , '<' or '='.
  * Others:		If they don't have a obvious priority, solute as the same(priority).
  */
-OpcharType Precede(OpcharType top, OpcharType get, int *flag) //ÕýÈ·ÐÔÒÑ¼ìÑé£¬µ«ÈÝ´íÐÔ²»¹»£¬ ÒòÎª else Óï¾ä·¶Î§Ì«¿í£¬¾ÍÃãÇ¿µ±×öÊäÈëµÄÊ±ºò¶¼ÕýÈ·°É
+OpcharType Precede(OpcharType top, OpcharType get, int *flag) //??È·???Ñ¼??é£¬???Ý´??Ô²????? ??Îª else ???ä·¶Î§Ì«?í£¬????Ç¿??????????Ê±??????È·??
 {
 	if (top == get)
 	{
@@ -135,4 +135,5 @@ OpcharType Precede(OpcharType top, OpcharType get, int *flag) //ÕýÈ·ÐÔÒÑ¼ìÑé£¬µ«
 			return '<';
 	}
 
+	return 0;// modified at 20.5.31 to finish make progress 
 }

@@ -1,0 +1,28 @@
+[35mMyCalculator, by Patrick[0m
+
+[34m--timestamp: [0mSun May 31 21:53:26 2020
+
+Sun May 31 21:54:35 2020
+1.Input: missli
+[31mAns: invalid[0m
+
+Sun May 31 21:54:43 2020
+2.Input: li
+[31mAns: invalid[0m
+
+Sun May 31 21:54:50 2020
+3.Input: miss li
+[31mAns: invalid[0m
+
+Sun May 31 21:54:59 2020
+4.Input: lessismore
+[31mAns: invalid[0m
+
+Sun May 31 21:55:03 2020
+5.Input: less is more
+[31mAns: invalid[0m
+
+Sun May 31 21:55:06 2020
+6.Input: Less is more
+[31mAns: invalid[0m
+
