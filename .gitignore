@@ -5,3 +5,10 @@
 /Project1_ShoppingSystem/Project1_ShoppingSystem/*.vcxproj.*
 
 tags
+*.png
+*.jpg
+*.log
+
+
+*/CMakeFileis/
+*/build/

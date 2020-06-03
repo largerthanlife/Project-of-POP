@@ -22,4 +22,4 @@ ADD_EXECUTABLE(mycal ${DIR_SRSC})
 #TARGET_LINK_LIBRARIES()
 
 #TARGET_LINK_LIBRARIES(retinaface /usr/local/lib/libreadline.so /usr/local/lib/libhissrctory.so)
-TARGET_LINK_LIBRARIES(mycal /usr/local/lib/libreadline.so -lncurses) 
+TARGET_LINK_LIBRARIES(mycal -lreadline -lncurses) 
