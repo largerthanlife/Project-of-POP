@@ -286,6 +286,8 @@ int ShowSomething_or_not(char * s)
 		return 4;
 	else if(!strcmp(s, "q") || !strcmp(s, "qiut")|| !strcmp(s, "quit"))
 		return 5;
+	else if(!strcmp(s, "largerthanlife"))
+		return 6;
 	else
 		return 0;
 }
@@ -368,6 +370,13 @@ void ShowSomething(char *s, int index, int use_time, char* instructions[MAXSTRIN
 					  + "If so, press \"Enter\" to return to the Menu" + "\n" 
 					  + "then input \'q\' or \"quit\" to exit" + "\n";
 			ShowMeg(meg, SHOW_YELLOW);
+		}
+		break;
+		case 6:
+		{
+			string meg("\n");
+			meg = meg + "Dont let me go" + "\n";
+			ShowMeg(meg, SHOW_BLUE);
 		}
 		break;
 
